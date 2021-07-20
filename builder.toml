@@ -1,0 +1,12 @@
+[[buildpacks]]
+uri = "./buildpacks/ruby"
+
+[[order]]
+    [[order.group]]
+    id = "boson/gcf/ruby"
+    version = "0.0.1"
+
+[stack]
+id = "dev.boson.stacks.bionic"
+run-image = "quay.io/boson/ex-stack-run:bionic"
+build-image = "quay.io/boson/ex-stack-build:bionic"

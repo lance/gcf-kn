@@ -1,0 +1,13 @@
+name: testrb
+namespace: ""
+runtime: ruby
+image: docker.io/lanceball/testrb:latest
+imageDigest: ""
+builder: gcf-kn
+builderMap:
+  default: gcf-kn
+volumes: []
+envs: []
+annotations: {}
+options: {}
+labels: []

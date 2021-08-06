@@ -18,7 +18,7 @@ docker build stack -t quay.io/boson/ex-stack-run:bionic --target run
 
 Create the builder image.
 ```
-pack builder create gcf-kn --config ./builder.toml
+pack builder create docker.io/lanceball/gcf-kn --config ./builder.toml
 ```
 
 Copy the templates. (Ultimately, this should be handled with a URI in func CLI)

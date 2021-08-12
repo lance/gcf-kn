@@ -1,8 +1,0 @@
-api = "0.5"
-
-[buildpack]
-  id = "boson/gcf/ruby"
-  version = "0.0.1"
-
-[[stacks]]
-  id = "dev.boson.stacks.bionic"

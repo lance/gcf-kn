@@ -1,0 +1,4 @@
+task :default do
+  `bundle exec functions-framework-ruby --source app.rb --target handle`
+end
+
